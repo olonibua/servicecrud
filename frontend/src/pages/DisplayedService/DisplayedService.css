@@ -1,0 +1,49 @@
+.movingGradient {
+  z-index: -10;
+  /* width: 90vw;
+  
+  height: 20vh; */
+  /* background: linear-gradient(45deg, #f078f0, #6a15da, #9f26a5, #eb0ac5, 0.2); */
+  background-size: 400% 400%;
+  background: linear-gradient(
+    45deg,
+    rgba(240, 120, 240, 0.2),
+    rgba(106, 21, 218, 0.2),
+    rgba(159, 38, 165, 0.2),
+    rgba(235, 10, 197, 0.2)
+  );
+  /* background: radial-gradient(circle, #ff0000, #00ff00, #0000ff, #ff0000); */
+  animation: moveGradient 10s infinite linear;
+}
+
+.item {
+  /* background: radial-gradient(circle, #ff0000, #00ff00, #0000ff, #ff0000); */
+  &:hover {
+    background-size: 400% 400%;
+    background: linear-gradient(
+      45deg,
+      rgba(240, 120, 240, 0.2),
+      rgba(106, 21, 218, 0.2),
+      rgba(159, 38, 165, 0.2),
+      rgba(235, 10, 197, 0.2)
+    );
+  }
+  animation: item 10s infinite linear;
+}
+@keyframes item {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}

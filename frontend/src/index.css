@@ -1,0 +1,14 @@
+body {
+  /* background-color: black; */
+  /* color: aliceblue; */
+  color: white;
+  font-family: "Archivo", sans-serif;
+  /* font-family: 'Hedvig Letters Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Rethink Sans', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
