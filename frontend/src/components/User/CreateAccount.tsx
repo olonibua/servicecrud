@@ -34,7 +34,7 @@ const CreateAccount: React.FC<registerUserProps> = ({
     setLoading(true);
     try {
       const response = await axios.post(
-        "https://service-crud-drqu.onrender.com/api/users/register",
+        "http://localhost:5001/api/users/register",
         user
       );
       const registerUser = response.data;

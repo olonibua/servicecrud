@@ -13,7 +13,7 @@ export const useEditService = (formData: any, user: any, userData: any) => {
       const headers = {
         Authorization: `Bearer ${user.accessToken}`,
       };
-      const url = `https://service-crud-drqu.onrender.com/api/services/${userData._id}`;
+      const url = `http://localhost:5001/api/services/${userData._id}`;
       const res = await axios.put(url, formData, { headers });
       if (res) {
         navigate("/service");

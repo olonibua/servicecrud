@@ -27,7 +27,7 @@ const LogIn: React.FC<SignInProps> = ({ setOpenSignIn }) => {
     setLoading(true);
     try {
       const response = await axios.post(
-        "https://service-crud-drqu.onrender.com/api/users/login",
+        "http://localhost:5001/api/users/login",
         user
       );
       const loggedUser = response.data;

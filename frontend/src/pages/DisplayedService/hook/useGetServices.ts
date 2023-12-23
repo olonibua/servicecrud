@@ -10,7 +10,7 @@ export const useGetServices = () => {
         Authorization: `Bearer ${user?.accessToken}`,
       };
 
-      const url = "https://service-crud-drqu.onrender.com/api/services";
+      const url = "http://localhost:5001/api/services";
       const response = await axios.get(url, { headers });
       return response.data;
     } catch (error) {

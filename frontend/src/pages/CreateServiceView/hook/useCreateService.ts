@@ -15,8 +15,8 @@ export const useCreateService = (
         const headers = {
           Authorization: `Bearer ${user?.accessToken}`,
         };
-        // https://service-crud-drqu.onrender.com
-        const url = "https://service-crud-drqu.onrender.com/api/services/";
+        // http://localhost:5001
+        const url = "http://localhost:5001/api/services/";
         const response = await axios.post(url, formData, { headers });
         setMessage(response.request.statusText);
       }
@@ -29,4 +29,4 @@ export const useCreateService = (
 
   return { createService };
 };
-// https://service-crud-drqu.onrender.com
+// http://localhost:5001

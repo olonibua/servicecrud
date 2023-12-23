@@ -87,7 +87,7 @@ describe("Test the Login component", () => {
       // Assert that the API was called with the correct data
       expect(axios.post).toHaveBeenCalledTimes(1);
       expect(axios.post).toHaveBeenCalledWith(
-        "https://service-crud-drqu.onrender.com/api/users/login",
+        "http://localhost:5001/api/users/login",
         {
           email: "test@example.com",
           password: "testPassword",

@@ -51,7 +51,7 @@ describe("test for creating account", () => {
     await waitFor(() => {
       expect(axios.post).toHaveBeenCalledTimes(1);
       expect(axios.post).toHaveBeenCalledWith(
-        "https://service-crud-drqu.onrender.com/api/users/register",
+        "http://localhost:5001/api/users/register",
         {
           username: "testUsername",
           email: "test@example.com",
