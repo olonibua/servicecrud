@@ -50,8 +50,8 @@ const CreateAccount: React.FC<registerUserProps> = ({
   };
 
   return (
-    <div className="bg-[#2864a8] bg-opacity-5 z-[1000] ">
-      <div className="h-[100vh] w-[100vw] overflow-hidden">
+    <div className="bg-[#000000] w-full bg-opacity-[0.5] z-[1000] ">
+      <div className="h-screen w-[98.9vw] max-w-screen overflow-hidden">
         <div className=" text-center p-3 md:p-5 text-black mt-32 h-[250px] md:h-[420px] max-w-[250px] md:max-h-[500px] md:max-w-[400px] mx-auto rounded-lg bg-white drop-shadow-md">
           <button
             className="flex text-[15px] md:text-[25px] font-medium justify-end float-right mr-3"

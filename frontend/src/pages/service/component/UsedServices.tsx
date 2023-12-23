@@ -21,7 +21,7 @@ const UsedServices = () => {
           />
           <div className="grid p-[4px] mx-1">
             <h2 className="text-[14px] font-bold">Node</h2>
-            <span className=" text-[12px] font-thin text-[#3d3d3d]">
+            <span className=" text-[10px] md:text-[11px] font-thin text-[#3d3d3d]">
               Backend lauguage
             </span>
           </div>
@@ -35,7 +35,7 @@ const UsedServices = () => {
 
           <div className="grid p-[4px] mx-1">
             <h2 className="text-[14px] font-bold">React</h2>
-            <span className=" text-[12px] font-thin text-[#3d3d3d]">
+            <span className=" text-[10px] md:text-[11px] font-thin text-[#3d3d3d]">
               Frontend lauguage
             </span>
           </div>
@@ -49,7 +49,7 @@ const UsedServices = () => {
 
           <div className="grid p-[4px] mx-1">
             <h2 className="text-[14px] font-bold">Express</h2>
-            <span className=" text-[12px] font-thin text-[#3d3d3d]">
+            <span className=" text-[10px] md:text-[11px] font-thin text-[#3d3d3d]">
               Node framework
             </span>
           </div>
@@ -63,7 +63,7 @@ const UsedServices = () => {
 
           <div className="grid p-[4px] mx-1">
             <h2 className="text-[14px] font-bold">MongoDb</h2>
-            <span className=" text-[12px] font-thin text-[#3d3d3d]">
+            <span className=" text-[10px] md:text-[11px] font-thin text-[#3d3d3d]">
               NOSQL database
             </span>
           </div>
@@ -77,7 +77,7 @@ const UsedServices = () => {
 
           <div className="grid p-[4px] mx-1">
             <h2 className="text-[14px] font-bold">Redux</h2>
-            <span className=" text-[12px] font-thin text-[#3d3d3d]">
+            <span className=" text-[10px] md:text-[11px] font-thin text-[#3d3d3d]">
               State Management
             </span>
           </div>
@@ -90,7 +90,7 @@ const UsedServices = () => {
           />
           <div className="grid p-[4px] mx-1">
             <h2 className="text-[14px] font-bold">TailwindCss</h2>
-            <span className=" text-[12px] font-thin text-[#3d3d3d]">
+            <span className=" text-[10px] md:text-[11px] font-thin text-[#3d3d3d]">
               Styling
             </span>
           </div>

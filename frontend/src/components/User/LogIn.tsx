@@ -47,8 +47,8 @@ const LogIn: React.FC<SignInProps> = ({ setOpenSignIn }) => {
   };
 
   return (
-    <div className="bg-[#2864a8] bg-opacity-5 z-[1000] ">
-      <div className="h-[100vh] w-[100vw] overflow-hidden">
+    <div className="bg-[#000000] w-full bg-opacity-[0.5] z-[1000] ">
+      <div className=" overflow-hidden  h-screen w-[98.9vw] max-w-screen">
         <div className=" text-center p-3 md:p-5 text-black mt-32 h-[230px] md:h-[380px] max-w-[250px] md:max-h-[400px] md:max-w-[400px] mx-auto rounded-lg bg-white drop-shadow-md">
           <button
             className="flex text-[15px] md:text-[25px] font-medium justify-end float-right mr-3"

@@ -3,7 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { useUserContext } from "./Context/UseContext";
 import LogIn from "./User/LogIn";
 import CreateAccount from "./User/CreateAccount";
-import DisplayedService from "../pages/DisplayedService/DisplayedService";
 
 const NavBar = () => {
   const { logoutUser } = useUserContext();
@@ -25,16 +24,12 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="h-24 text-center border-b-2 drop-shadow-sm bg-[#ffffff] border-[#e9e9e9] text-black p-5">
+      <div className="h-20 md:h-24 text-center md:p-5 border-b-2 drop-shadow-sm bg-[#ffffff] border-[#e9e9e9] text-black">
         <div className="flex justify-between mt-2">
-          <h2 className="text-[15px] md:text-[25px] text-[#181818] font-semibold md:pl-20">
+          <h2 className="p-4 md:p-0 text-[15px] md:text-[25px] text-[#181818] font-semibold md:pl-20">
             Service Crud
           </h2>
-          <div className="flex md:pr-16">
-            {/* <ul className="flex gap-5">
-            <li>home</li>
-            <li>service</li>
-          </ul> */}
+          <div className="flex md:pr-16 p-3 md:p-0">
             {!user ? (
               <div>
                 <button
@@ -56,7 +51,7 @@ const NavBar = () => {
               {user ? (
                 <div>
                   <button
-                    className="text-[11px] md:text-[15px] mx-2 mt-2 md:mt-1 cursor-pointer"
+                    className="text-[11px] md:text-[15px] mx-2 md:mt-1 cursor-pointer"
                     onClick={() => {
                       openService();
                     }}
@@ -64,7 +59,7 @@ const NavBar = () => {
                     Services
                   </button>
                   <Link to="/createService">
-                    <button className="text-[11px] md:text-[15px] mx-2 mt-2 md:mt-1 cursor-pointer">
+                    <button className="text-[11px] md:text-[15px] mx-2 md:mt-1 cursor-pointer">
                       Create service
                     </button>
                   </Link>
