@@ -8,7 +8,7 @@ export const useHandleFilterService = (service: any) => {
   };
 
   const searchFilteredServices = () => {
-    const filtered = service.filter((item: any) =>
+    const filtered = service?.filter((item: any) =>
       item.service?.toLowerCase().includes(searchWord?.toLowerCase())
     );
     setFilteredService(filtered);

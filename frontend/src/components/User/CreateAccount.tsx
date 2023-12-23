@@ -108,7 +108,7 @@ const CreateAccount: React.FC<registerUserProps> = ({
             onClick={register}
             className="text-center border-2 mt-2 md:mt-5 bg-white border-[#42424255]  backdrop:bg-[#e4e4e7] rounded-lg h-7 md:h-10 w-[100px] md:w-[150px] mx-2 text-[10px] md:text-[13px] font-semibold"
           >
-            {loading ? "Signing In..." : "Sign up"}
+            {loading ? "Signing up..." : "Sign up"}
           </button>
         </div>
       </div>
